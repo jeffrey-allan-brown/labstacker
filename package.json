@@ -1,0 +1,33 @@
+{
+  "name": "labstacker",
+  "version": "0.0.0",
+  "description": "A resource for defining home lab architecture and mapping out systems.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build --dest build",
+    "build-prod": "vue-cli-service build --dest app/views",
+    "start": "node websocket.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieronymous-bean/labstacker.git"
+  },
+  "author": "jeffreyallanbrown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieronymous-bean/labstacker/issues"
+  },
+  "homepage": "https://github.com/hieronymous-bean/labstacker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^3.2.20",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.2.20"
+  }
+}
