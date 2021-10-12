@@ -1,20 +1,8 @@
 <template>
-Application Container
+  <div class="test">hi</div>
 </template>
 <script>
-export default {
-  name: 'ApplicationContainer',
-  data: () => ({
-
-  }),
-  components: { 
-		
-  },
-  methods: {
-
-  },
-  computed: {
-
-  },
-}
+export default ({
+  name: 'ApplicationContainer'
+})
 </script>

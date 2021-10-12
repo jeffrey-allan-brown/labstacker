@@ -1,28 +1,11 @@
-// library imports //
 import { createRouter, createWebHistory } from 'vue-router';
 
-// layouts //
-import ApplicationContainer from '../layouts/container/ApplicationContainer.vue';
+import routes from './routes';
 
-// main route definitions //
-const routes = [
-  {
-    path: '/',
-    component: ApplicationContainer,
-    name: "ApplicationContainer",
-    children: [
-
-    ]
-  }
-];
-
-// define router //
-const router = createRouter({
-  history: createWebHistory(),
-  routes,
-  scrollBehavior(to, from, savedPosition) {
-    return savedPosition || { left: 0, top: 0 }
-  }
+// router definition //
+const router = createRouter({ 
+  history: createWebHistory(), 
+  routes
 });
 
 export default router

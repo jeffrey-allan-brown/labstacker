@@ -1,10 +1,9 @@
-
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import { store } from './store';
 
-// create the app instance //
+// initialize application //
 const app = createApp(App);
 
 // declare the store and router //
